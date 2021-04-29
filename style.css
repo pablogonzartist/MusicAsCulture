@@ -1,0 +1,204 @@
+html {
+height: 100%;
+max-width: 100%;
+background: radial-gradient(circle,#CB93CE 4%,#9CA8DE 66%, #AA80A5 98%);
+    background-size: 300% 300%;
+    animation: change 40s ease-in-out infinite;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Phase-A';
+    src: url('../fonts/A-0-100-100.woff2') format('woff2'),
+        url('../fonts/A-0-100-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.lefttitle h1{
+font-family: Phase-A;
+white-space: nowrap;
+color: white;
+font-size: 6em;
+transform: rotate(-90deg);
+position: absolute;
+bottom: 0;
+margin-left: -5.5em;
+}
+
+/* outer container */
+.outercontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+
+
+}
+
+
+/* left title */
+.lefttitle { 
+width: 100px;
+position: relative;
+}
+
+/*inner coontainer*/
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 100%;
+}
+
+/*rows*/
+.rowone {
+    margin-left: 10em;
+}
+.rowtwo {
+    margin-left: 25em;
+}
+.rowthree {
+    margin-left: 45em;
+}
+.rowfour {
+    margin-left: 10em;
+}
+
+
+
+  /*ellipse */
+.ellipse {
+    width: 271px;
+    height: 271px;
+   
+    margin: .15em;
+    
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    /*text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Phase-A;
+    font-size: 4em;
+    color: white;
+    }
+
+.ellipse:hover {
+    animation: fadeOutUp;
+    animation-duration: 2s;
+    
+}
+
+
+
+   
+    
+/*link*/
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* search bar inspired by: https://codepen.io/menelaosly/pen/rZddyb */ 
+/*SEARCH BAR BEGINS HERE */
+.searchbar {
+    display: flex;
+    margin: 4em;
+}
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+   
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+    background-color: rgb(103, 75, 215, .1);
+    color: white;
+}
+
+form:hover .fa{
+    background: #674bd7;
+    color: white;
+}
+
+/*SEARCH BAR ENDS HERE */
+
+
+/* animation */
+@keyframes change {
+    0% {
+    background-position: 0 50%;
+  }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+  
+      } }
