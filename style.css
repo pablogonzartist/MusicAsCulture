@@ -1,8 +1,8 @@
 html {
 height: 100%;
 max-width: 100%;
-background: radial-gradient(circle,#CB93CE 4%,#9CA8DE 66%, #AA80A5 98%);
-    background-size: 300% 300%;
+background: radial-gradient(circle,#ffffff 4%,#173CF4 66%, #ffffff, #EB4525, #ffffff, #FF902D 98%);
+    background-size: 400% 400%;
     animation: change 40s ease-in-out infinite;
 }
 

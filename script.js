@@ -36,13 +36,10 @@
 const form= document.querySelector('form');
 
 form.addEventListener('submit', function(e) {
-
+  e.preventDefault();
     var input = document.getElementById("search").value;
-    alert(input);
    if (input == "2020"){
-       location.href="one.html";                    
-       location.replace("index.html");
+       location.href=("pages/2020/2020.html");                    
        return false;
-    
     }
 })
