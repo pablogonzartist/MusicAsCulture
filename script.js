@@ -76,5 +76,61 @@ form.addEventListener('submit', function(e) {
     location.href=("pages/2012/2012.html");                    
     return false;
   }
+  if (input == "2011"){
+    location.href=("pages/2011/2011.html");                    
+    return false;
+  }
+  if (input == "2010"){
+    location.href=("pages/2010/2010.html");                    
+    return false;
+  }
+  if (input == "2009"){
+    location.href=("pages/2009/2009.html");                    
+    return false;
+  }
+  if (input == "2008"){
+    location.href=("pages/2008/2008.html");                    
+    return false;
+  }
+  if (input == "2007"){
+    location.href=("pages/2007/2007.html");                    
+    return false;
+  }
+  if (input == "2006"){
+    location.href=("pages/2006/2006.html");                    
+    return false;
+  }
+  if (input == "2005"){
+    location.href=("pages/2005/2005.html");                    
+    return false;
+  }
+  if (input == "2004"){
+    location.href=("pages/2004/2004.html");                    
+    return false;
+  }
+  if (input == "2003"){
+    location.href=("pages/2003/2003.html");                    
+    return false;
+  }
+  if (input == "2002"){
+    location.href=("pages/2002/2002.html");                    
+    return false;
+  }
+  if (input == "2001"){
+    location.href=("pages/2001/2001.html");                    
+    return false;
+  }
+  if (input == "2000"){
+    location.href=("pages/2000/2000.html");                    
+    return false;
+  }
+  if (input == "1999"){
+    location.href=("pages/1999/1999.html");                    
+    return false;
+  }
+  if (input == "1998"){
+    location.href=("pages/1998/1998.html");                    
+    return false;
+  }
 
 })
