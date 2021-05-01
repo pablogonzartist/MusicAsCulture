@@ -1,9 +1,10 @@
 html {
 height: 100%;
 max-width: 100%;
-background: radial-gradient(circle,#ffffff 4%,#173CF4 66%, #ffffff, #EB4525, #ffffff, #FF902D 98%);
-    background-size: 400% 400%;
-    animation: change 40s ease-in-out infinite;
+/*background: radial-gradient(circle,#ffffff 4%,#173CF4 20%, #ffffff 40%, #EB4525 60%, #ffffff 80%, #FF902D 99%);*/
+background: radial-gradient(circle, #ffffff 2%, #674bd7 98%);
+background-size: 500% 500%;
+animation: change 60s ease-in-out infinite;
 }
 
 body {
@@ -72,8 +73,24 @@ position: relative;
 .rowfour {
     margin-left: 10em;
 }
-
-
+.rowsix {
+    margin-left: 30em;
+}
+.rowseven {
+    margin-left: 5em;
+}
+.roweight {
+    margin-left: 25em;
+}
+.rownine {
+    margin-left: 50em;
+}
+.rowten {
+    margin-left: 30em;
+}
+.roweleven {
+    margin-left: 5em;
+}
 
   /*ellipse */
 .ellipse {
