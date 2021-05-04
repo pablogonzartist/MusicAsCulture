@@ -132,5 +132,144 @@ form.addEventListener('submit', function(e) {
     location.href=("pages/1998/1998.html");                    
     return false;
   }
+  if (input == "1997"){
+    location.href=("pages/1997/1997.html");                    
+    return false;
+ }
+
+ if (input == "1996"){
+   location.href=("pages/1996/1996.html");                    
+   return false;
+}
+
+if (input == "1995"){
+ location.href=("pages/1995/1995.html");                    
+ return false;
+}
+if (input == "1994"){
+ location.href=("pages/1994/1994.html");                    
+ return false;
+}
+if (input == "1993"){
+ location.href=("pages/1993/1993.html");                    
+ return false;
+}
+if (input == "1992"){
+ location.href=("pages/1992/1992.html");                    
+ return false;
+}
+if (input == "1991"){
+ location.href=("pages/1991/1991.html");                    
+ return false;
+}
+if (input == "1990"){
+ location.href=("pages/1990/1990.html");                    
+ return false;
+}
+if (input == "1989"){
+ location.href=("pages/1989/1989.html");                    
+ return false;
+}
+if (input == "1988"){
+ location.href=("pages/1988/1988.html");                    
+ return false;
+}
+if (input == "1987"){
+ location.href=("pages/1987/1987.html");                    
+ return false;
+}
+if (input == "1986"){
+ location.href=("pages/1986/1986.html");                    
+ return false;
+}
+if (input == "1985"){
+ location.href=("pages/1985/1985.html");                    
+ return false;
+}
+if (input == "1984"){
+ location.href=("pages/1984/1984.html");                    
+ return false;
+}
+if (input == "1983"){
+ location.href=("pages/1983/1983.html");                    
+ return false;
+}
+if (input == "1982"){
+ location.href=("pages/1982/1982.html");                    
+ return false;
+}
+if (input == "1981"){
+ location.href=("pages/1981/1981.html");                    
+ return false;
+}
+if (input == "1980"){
+ location.href=("pages/1980/1980.html");                    
+ return false;
+}
+if (input == "1985"){
+ location.href=("pages/1985/1985.html");                    
+ return false;
+}
+if (input == "1984"){
+ location.href=("pages/1984/1984.html");                    
+ return false;
+}
+if (input == "1983"){
+ location.href=("pages/1983/1983.html");                    
+ return false;
+}
+if (input == "1982"){
+ location.href=("pages/1982/1982.html");                    
+ return false;
+}
+if (input == "1981"){
+ location.href=("pages/1981/1981.html");                    
+ return false;
+}
+if (input == "1980"){
+ location.href=("pages/1980/1980.html");                    
+ return false;
+}if (input == "1979"){
+  location.href=("pages/1979/1979.html");                    
+  return false;
+ }
+ if (input == "1978"){
+  location.href=("pages/1978/1978.html");                    
+  return false;
+ }
+ if (input == "1977"){
+  location.href=("pages/1977/1977.html");                    
+  return false;
+ }
+ if (input == "1976"){
+  location.href=("pages/1976/1976.html");                    
+  return false;
+ }
+ if (input == "1975"){
+  location.href=("pages/1975/1975.html");                    
+  return false;
+ }
+ if (input == "1974"){
+  location.href=("pages/1974/1974.html");                    
+  return false;
+ }
+ if (input == "1973"){
+  location.href=("pages/1973/1973.html");                    
+  return false;
+ }
+ if (input == "1972"){
+  location.href=("pages/1972/1972.html");                    
+  return false;
+ }
+ if (input == "1971"){
+  location.href=("pages/1971/1971.html");                    
+  return false;
+ }
+ if (input == "1970"){
+  location.href=("pages/1970/1970.html");                    
+  return false;
+ }
+
+
 
 })
