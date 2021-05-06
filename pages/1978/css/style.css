@@ -85,3 +85,48 @@ color: white;
     margin: 1em;
 
 }
+
+@media only screen and (max-width: 50em) {
+      
+    header {
+        transform:scale(.5);
+        margin-left: -5em;
+        
+    }
+    
+    .songtitle {
+        margin-left: 3em;
+    }
+    
+    .musiccontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .year {
+        display: flex;
+        font-family: Phase-A;
+        color: white;
+        font-size: 5em;
+        text-orientation: upright;
+        writing-mode:horizontal-tb;
+        text-align: center;
+        justify-self: center;
+        margin-top: -1.5em;
+        margin-left: .5em;
+    }
+    
+    .album {
+        transform: scale(.5);
+        margin-left: -3.5em;
+        margin-top: -10em;
+    
+    }
+    
+    .news {
+        transform: scale(.5);
+        margin-left: -3.5em;
+        margin-top: -7em;
+    
+    }
+    }
